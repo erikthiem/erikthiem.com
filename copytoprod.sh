@@ -19,6 +19,7 @@ mkdir prod/vendor/bootstrap/css
 mkdir prod/vendor/font-awesome
 mkdir prod/vendor/font-awesome/css
 mkdir prod/vendor/font-awesome/fonts
+mkdir prod/pdf
 
 # Copy files
 echo "Copying files to prod/"
@@ -42,6 +43,9 @@ cp -r img prod/
 cp vendor/font-awesome/css/font-awesome.min.css prod/vendor/font-awesome/css/font-awesome.min.css
 cp vendor/font-awesome/fonts/fontawesome-webfont.woff prod/vendor/font-awesome/fonts/fontawesome-webfont.woff
 cp vendor/font-awesome/fonts/fontawesome-webfont.woff2 prod/vendor/font-awesome/fonts/fontawesome-webfont.woff2
+
+# PDFs
+cp pdf/Erik_Thiem_Resume.pdf prod/pdf/Erik_Thiem_Resume.pdf
 
 # Misc
 cp -r misc_include_prod/. prod/
