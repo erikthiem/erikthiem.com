@@ -43,4 +43,7 @@ cp vendor/font-awesome/css/font-awesome.min.css prod/vendor/font-awesome/css/fon
 cp vendor/font-awesome/fonts/fontawesome-webfont.woff prod/vendor/font-awesome/fonts/fontawesome-webfont.woff
 cp vendor/font-awesome/fonts/fontawesome-webfont.woff2 prod/vendor/font-awesome/fonts/fontawesome-webfont.woff2
 
+# Misc
+cp -r misc_include_prod/. prod/
+
 echo "Success"
